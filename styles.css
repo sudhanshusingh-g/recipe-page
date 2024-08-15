@@ -112,3 +112,10 @@ td{
     font-weight: 700;
     color: var(--brown-800);
 }
+
+@media screen and (min-width: 768px) {
+    .recipe_image {
+        aspect-ratio: none;
+    }
+}
+
